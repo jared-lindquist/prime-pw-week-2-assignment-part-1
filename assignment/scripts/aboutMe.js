@@ -18,7 +18,7 @@ console.log(fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 
-let luckyNumber = 13;
+let luckyNumber = 3;
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
@@ -104,13 +104,13 @@ let mostPets = " ";
 //      You'll need to research how to use switch statements!
 
 switch (luckyNumber) {
-    case 1:
+    case (luckyNumber = 1):
         console.log("First is the worst");
         break;
-    case 2:
+    case (luckyNumber = 2):
         console.log("Second is the best");
         break;
-    case 3:
+    case (luckyNumber = 3):
         console.log("Third is the one with the polka dot dress");
         break;
     default:
@@ -120,6 +120,7 @@ switch (luckyNumber) {
 
 pets = 2;
 
-let morePets = pets < allowedPets ? "I can have more pets!" : pets = allowedPets ? "I have enough pets" : pets > allowedPets ? "Oh no, I have too many pets!":
-    
-console.log(morePets);
+let result = 
+pets < allowedPets ? "I can have more pets!" : pets = allowedPets ? "I have enough pets" : pets > allowedPets ? "Oh no, I have too many pets!"    
+: console.log(result);
+   

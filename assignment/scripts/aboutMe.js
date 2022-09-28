@@ -75,9 +75,9 @@ if ((luckyNumber === 2) && (adventurous = true))
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 
-if (pets < allowedPets)
-{console.log("I can have more pets!")
-} else if (pets = allowedPets){
+if (pets < allowedPets){
+    console.log("I can have more pets!")
+} else if (pets == allowedPets){
     console.log("I have enough pets")
 } else {
     console.log("Oh no, I have too many pets!")
@@ -120,7 +120,8 @@ switch (luckyNumber) {
 
 pets = 2;
 
-let result = 
-pets < allowedPets ? "I can have more pets!" : pets = allowedPets ? "I have enough pets" : pets > allowedPets ? "Oh no, I have too many pets!"    
-: console.log(result);
+const result = 
+pets < allowedPets ? "I can have more pets!" :  "I have enough pets";   
+//this needs work to include the "Oh no, I have too many pets!" output 
+console.log(result);
    

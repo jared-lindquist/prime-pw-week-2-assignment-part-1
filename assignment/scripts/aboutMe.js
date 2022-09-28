@@ -18,13 +18,13 @@ console.log(fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 
-let luckyNumber = 3;
+let luckyNumber = 13;
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
-console.log("My name is", fullName + ' ' +  "and I think", luckyNumber + ' ' + "is a winner!");
+console.log("My name is", fullName + ', ' +  "and I think", luckyNumber + ' ' + "is a winner!");
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
@@ -119,8 +119,11 @@ switch (luckyNumber) {
 };
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+adventurous ? console.log("Adventures are great!") : console.log("How about we stay home?");
+
 pets = 3
 
+//Initially read #18 to rewrite #15 as a ternary. Thought it was good practice to I am leaving it in.
 const result = 
 pets < allowedPets ? "I can have more pets!" :  pets === allowedPets ? "I have enough pets" : "Oh no, I have too many pets!"   
 

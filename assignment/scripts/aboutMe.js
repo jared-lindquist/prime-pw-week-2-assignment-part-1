@@ -36,7 +36,7 @@ let food = "steak";
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
-let pets = 2;
+let pets = 5;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
@@ -118,10 +118,10 @@ switch (luckyNumber) {
 };
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-pets = 2;
+pets = 3
 
 const result = 
-pets < allowedPets ? "I can have more pets!" :  "I have enough pets";   
-//this needs work to include the "Oh no, I have too many pets!" output 
+pets < allowedPets ? "I can have more pets!" :  pets === allowedPets ? "I have enough pets" : "Oh no, I have too many pets!"   
+
 console.log(result);
    

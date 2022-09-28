@@ -121,9 +121,10 @@ switch (luckyNumber) {
 
 adventurous ? console.log("Adventures are great!") : console.log("How about we stay home?");
 
-pets = 3
 
 //Initially read #18 to rewrite #15 as a ternary. Thought it was good practice to I am leaving it in.
+
+pets = 3
 const result = 
 pets < allowedPets ? "I can have more pets!" :  pets === allowedPets ? "I have enough pets" : "Oh no, I have too many pets!"   
 
